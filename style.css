@@ -1,0 +1,25 @@
+span.welcome {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.navbar-light .navbar-brand.navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: pink !important;
+  font-weight: bold !important;
+}
+form {
+  margin-top: 1em;
+}
+input,
+select {
+  width: 30em;
+}
+#submit {
+  margin-top: 1em;
+  width: 5em;
+  background-color: rgb(127, 127, 248);
+  border-radius: 0.3em;
+  color: white;
+}
