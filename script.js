@@ -64,7 +64,7 @@ form.addEventListener("submit", function validate(e) {
     if (name1.value.length<6 || name1.value.lenght>16) {
         msg1.innerText = "the Name must be between 5 and 16 e characters long";
         name1.style.border = " 1px solid red";
-        msg1.color = "red";
+        msg1.style.color = "red";
       
     }
     else {
@@ -87,6 +87,7 @@ form.addEventListener("submit", function validate(e) {
     }
     if (type.value == "None") {
         msg3.innerText = "you must choose a type";
+        msg3.style.color = "red";
         type.style.borderColor = "red";
 
         
@@ -98,6 +99,7 @@ form.addEventListener("submit", function validate(e) {
     }
     if (dTime.value == "None") {
         msg4.innerText = "you must choose a Time";
+        msg4.style.color="red"
         dTime.style.borderColor = "red";
         
     } else {
